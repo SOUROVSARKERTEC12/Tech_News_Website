@@ -16,7 +16,7 @@ const Stories = () => {
 
     return (
         <>
-            <h2 className="text-3xl font-bold text-center mt-8 mb-4">Programming News Post</h2>
+            <h2 className="text-2xl font-bold text-center mt-8 mb-4">Programming News Post</h2>
             <div className="flex justify-center items-center">
                 <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-1 content-center">
                     {hits.map((items) => {

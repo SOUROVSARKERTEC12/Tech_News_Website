@@ -19,6 +19,11 @@ const reducer = (state, action) =>{
                     (data) => data.objectID !== action.payload
                 )
             }
+        case "SEARCH_POST":
+            return {
+                ...state,
+                query: action.payload
+            }
     }
 
     return state
