@@ -1,11 +1,8 @@
 import React from 'react';
-import {useGlobalContext} from "../hooks/customhook.jsx";
 
-function Search() {
-    const access = useGlobalContext()
-
+function Search(){
     return (
-        <div>Search {access}</div>
+        <div>Search</div>
     );
 }
 

@@ -1,5 +1,5 @@
 import {useContext} from "react";
-import {AppContext} from "../context.jsx";
+import {AppContext} from "../context/context.jsx";
 
 // Custom hook creation
 const useGlobalContext = ()=>{
