@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {useGlobalContext} from "../hooks/customhook.jsx";
 
 const Stories = () => {
@@ -7,7 +7,7 @@ const Stories = () => {
 
     if (isLoading) {
         return <>
-            <div className="relative flex justify-center items-center">
+            <div className="relative flex justify-center items-center mt-20">
                 <div className="absolute animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-purple-500"></div>
                 <img src="https://www.svgrepo.com/show/509001/avatar-thinking-9.svg"  alt="name" className="rounded-full h-28 w-28"/>
             </div>
