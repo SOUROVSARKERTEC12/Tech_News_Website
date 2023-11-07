@@ -3,17 +3,20 @@
 // consumer lengthy process that why remove
 // useContext hook
 
-import {createContext} from "react";
+import {createContext, useContext} from "react";
 
 const AppContext = createContext()
 
 // to create a provider function
 const AppProvider = ({children})=>{
     return(
-        <AppContext.Provider value="Use form Anywhere">
+        <AppContext.Provider value={"Access form Anywhere"}>
             {children}
         </AppContext.Provider>
     )
 }
+
+
+
 
 export {AppContext, AppProvider}
